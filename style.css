@@ -10,6 +10,46 @@ body {
 
 #level_title {
 	font-size: 18px;
-	color: black;		
+	color: white;		
 	font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;;
+}
+
+#status {
+	color: white;		
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#action {
+	position: absolute;
+	left: 5px;
+	top: 60%;
+	color: black;		
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#text {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 10px;
+	width: 50%;
+}
+
+img.slime {
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	width: 544px;
+	height: 188px;
+}
+
+img.level_image {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
 }

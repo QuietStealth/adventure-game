@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Adventure Game</title>
+		<link href="style.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<img id="level_image" class="level_image" src="img/bg/menu.png">
+		<img id="level_image2" class="level_image" src="img/bg/menu2.png">
+		<img id="slime_image" class="slime" src="img/enemies/Slime.png" hidden>
+		<main>
+			<div id='text'>
+				<section id="level_title">Nameless</section><br/>
+
+				<section id="status">How to play:<br/>- Press button of choice.<br/>- obtain the required items to advance further into the game.<br/>- ???<br/>- Profit.<br/><br/>Remember that there is no redo button and you will need to<br/>start all over when you screw up.</section><br/>
+			</div>
+
+			<nav>
+
+				<button id="option1" onclick="javascript:Level(1)">Start Game</button><br/>
+				<button id="option2" hidden>Start Game</button><br/>
+				<button id="option3" hidden>Start Game</button><br/>
+				<button id="option4" hidden>Start Game</button><br/>
+				<button id="option5" hidden>Start Game</button><br/>
+
+			</nav>
+
+		</main>
+
+		<script src="game.js" type="text/javascript" ></script>
+	</body>
+</html>

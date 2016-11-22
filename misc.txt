@@ -1,0 +1,16 @@
+area-1: desolate cliff
+	exits: north(ruined city), up(endgame content)
+	interest: blob battle
+
+area-2: ruined city Earluis
+	exits: south-west(decrepit house), north-east(port city Anfallas), south(desolate cliff), west(abandoned castle)
+
+area-3: decrepit house
+	exits: out(ruined city Earluis)
+	interest: smith's workplace, Telvarius
+
+area-4: port city Anfallas
+	exits:
+
+Items: 
+	[0] = old sword
